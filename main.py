@@ -13,7 +13,7 @@ def read_data(file_path):
     data = np.array([list(map(lambda x: float(x.replace(',', '.')), line.split())) for line in lines])
     return data
 
-# Functi    on to choose a file
+# Function to choose a file
 def choose_file():
     root = tk.Tk()
     root.withdraw()  # Hide the main window
